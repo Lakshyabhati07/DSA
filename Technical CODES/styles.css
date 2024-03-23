@@ -1,0 +1,63 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('background.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease; /* Transition effect for background image change */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+    color: #fff;
+    padding: 20px 0;
+    transition: background-color 0.5s ease; /* Transition effect for background color change */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+    background: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+    transition: background-color 0.5s ease; /* Transition effect for background color change */
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.5s ease; /* Transition effect for background color change */
+}
